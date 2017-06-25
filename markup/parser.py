@@ -1,5 +1,10 @@
 # /usr/bin/python
 # -*- encoding:utf-8 -*-
+import re
+from markup.util import *
+from markup.handlers import  *
+from markup.rules import *
+
 
 class Parser:
     '''
